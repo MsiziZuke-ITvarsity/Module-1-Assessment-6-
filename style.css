@@ -55,3 +55,52 @@ table{
    border-style: dashed;
    border-color: green;
 }
+.contact-container{
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+}
+.contact-left{
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 20px;
+}
+.contact-left-title h2{
+      font-weight: 500;
+      color: black;
+      font-size: 40px;
+      margin-bottom: 5px;
+
+}
+body{
+      font-family: outfit;
+      background-color: bisque;
+}
+.contact-left-title hr{
+      border: none;
+      width: 400px;
+      height: 5px;
+      background-color: green;
+      border-radius: 10px;
+      margin-bottom: 20px;
+}
+.contact-left textarea{
+      height: 140px;
+      padding-top: 15px;
+      border-radius: 20px;
+}
+.contact-inputs{
+      width: 350px;
+      height: 50px;
+      border: none;
+      outline: none;
+      padding-left: 25px;
+      font-weight: 500;
+      color: black;
+      border-radius: 50px;
+}
+
+     
+
